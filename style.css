@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    height: 100%;
+    font-family: sans-serif;
+    color: white;
+
+}
+
+
+#one {
+    background-color: cadetblue;
+    height: 100vh;
+    text-align: center;
+    display: grid;
+    align-items: center;
+}
+
+#two {
+    background-color: coral;
+    height: 100vh;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+#three {
+    background-color: darkgrey;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    display: grid;
+}
