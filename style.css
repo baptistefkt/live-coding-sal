@@ -3,9 +3,20 @@ body {
     height: 100%;
     font-family: sans-serif;
     color: white;
-
 }
 
+h1 {
+    font-size: 4em;
+    padding-top: 100px;
+}
+
+h2 {
+    padding: 150px 0;
+    font-size: 2em;
+    width: 50%;
+    margin: auto;
+
+}
 
 #one {
     background-color: cadetblue;
@@ -15,6 +26,13 @@ body {
     align-items: center;
 }
 
+#one p {
+    width: 60%;
+    margin: auto;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
 #two {
     background-color: coral;
     height: 100vh;
@@ -22,12 +40,25 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
+
+}
+
+#two p {
+    padding: 20px;
 }
 
 #three {
     background-color: darkgrey;
-    height: 100vh;
+    height: auto;
     text-align: center;
     align-items: center;
     display: grid;
+
 }
+
+#thanks {
+    font-size: 5em;
+    margin: auto;
+    padding-bottom: 500px;
+}
+
