@@ -1,2 +1,2 @@
-# live-coding-sal.js
-Live coding about how to use Sal.js to make simple scrolling animations 
+# live-coding-sal
+Live coding about how to use Sal to make simple scrolling animations 
